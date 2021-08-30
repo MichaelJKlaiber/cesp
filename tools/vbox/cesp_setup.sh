@@ -1,11 +1,8 @@
 # Prerequisite
-# git clone git@github.com:MichaelJKlaiber/cesp.git /home/$USER/cesp_course
-# echo "/home/$USER/
 
-#cd /home/$USER/cesp_course && git pull && /home/$USER/cesp_course/cesp_setup.sh
 
 # Installation of ubuntu packages
-sudo apt-get install -y autocutsel default-jre scite evince bless gimp python3 emacs
+sudo apt-get install -y default-jre scite evince bless gimp python3 emacs
 
 export CESPREPO=/home/$USER/cesp_course
 export TOOLS=$CESPREPO/tools
