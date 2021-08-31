@@ -1,0 +1,7 @@
+{
+  "cesp_version": 1,
+  "executable": ["/usr/bin/java", "-jar", "/opt/rars/rars.jar"],
+  "arguments": ["a0", "a2", "a7", "hello_world.asm"],
+  "description": "Hello World Example",
+  "expected_result": ""
+}
