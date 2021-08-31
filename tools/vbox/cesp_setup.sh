@@ -19,7 +19,7 @@ echo "alias rars=\"java -jar $TOOLS/rars/rars.jar\"" >> $CESPRC
 
 #Add Ripes
 echo "export APPIMAGE_EXTRACT_AND_RUN=1" >> $CESPRC
-echo "alias ripes=\"$TOOLS/ripes/ripes.AppImage\" >> $CESPRC
+echo "alias ripes=\"$TOOLS/ripes/ripes.AppImage\"" >> $CESPRC
 
 
 #Add Fpgrars
