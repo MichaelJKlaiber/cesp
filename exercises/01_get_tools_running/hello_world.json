@@ -1,7 +1,16 @@
 {
-    "cesp_version": 1,
-    "executable": ["/usr/bin/java", "-jar", "/home/cesp/cesp_course/tools/rars/rars.jar"],
-    "arguments": ["a0", "a2", "a7", "hello_world.asm"],
-    "description": "Hello World Example",
-    "expected_result": "RARS 1.5  Copyright 2003-2019 Pete Sanderson and Kenneth Vollmar\n\nWelcome to Computer Engineering and Systems Programming !\n\u0000\u0000\nProgram terminated by calling exit\na0\t0x00000000\na2\t0x0000003c\na7\t0x0000005d\n"
+  "cesp_version": 1,
+  "executable": [
+    "/usr/bin/java",
+    "-jar",
+    "/home/cesp/cesp_course/tools/rars/rars.jar"
+  ],
+  "arguments": [
+    "a0",
+    "a2",
+    "a7",
+    "hello_world.asm"
+  ],
+  "description": "Hello World Example",
+  "expected_result": "RARS 1.5  Copyright 2003-2019 Pete Sanderson and Kenneth Vollmar\n\nWelcome to Computer Engineering and Systems Programming !\n\u0000\u0000\nProgram terminated by calling exit\na0\t0x00000000\na2\t0x0000003c\na7\t0x0000005d\n"
 }
