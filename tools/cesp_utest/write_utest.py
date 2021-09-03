@@ -20,7 +20,7 @@ def main(file: str):
             jd["expected_result"] = result
 
             with open(file, "w", encoding="utf8") as json_file:
-                json.dump(jd, json_file, ensure_ascii=True)
+                json.dump(jd, json_file, indent=2,  ensure_ascii=True)
 
 
 if __name__ == "__main__":
