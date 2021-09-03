@@ -1,0 +1,14 @@
+{
+  "cesp_version": 1,
+  "executable": [
+    "/usr/bin/java",
+    "-jar",
+    "/home/cesp/cesp_course/tools/rars/rars.jar"
+  ],
+  "arguments": [
+    "0x10010000-0x10010050",
+    "fib01.asm"
+  ],
+  "description": "Fibonacci Iterative: 20",
+  "expected_result": "RARS 1.5  Copyright 2003-2019 Pete Sanderson and Kenneth Vollmar\n\n1\n1\n2\n3\n5\n8\n13\n21\n34\n55\n89\n144\n233\n377\n610\n987\n1597\n2584\n4181\n6765\n\nProgram terminated by calling exit\nMem[0x10010000]\t0x00000001\t0x00000001\t0x00000002\t0x00000003\t\nMem[0x10010010]\t0x00000005\t0x00000008\t0x0000000d\t0x00000015\t\nMem[0x10010020]\t0x00000022\t0x00000037\t0x00000059\t0x00000090\t\nMem[0x10010030]\t0x000000e9\t0x00000179\t0x00000262\t0x000003db\t\nMem[0x10010040]\t0x0000063d\t0x00000a18\t0x00001055\t0x00001a6d\t\nMem[0x10010050]\t0x0000000a\t\n"
+}
