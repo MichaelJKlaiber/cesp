@@ -9,12 +9,7 @@
 #CESP Exercise: Simple Addition
 ########################################
                                  
-
-.globl _main    
-
-
-.text
-_main:  li t0, 0x42
+main:   li t0, 0x42
 	li t1, 0x66
 	add t2, t0, t1      
 
