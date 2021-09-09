@@ -1,0 +1,5 @@
+{"cesp_version": 1,
+ "executable": ["/usr/bin/java", "-jar", "/home/cesp/cesp_course/tools/rars/rars.jar"],
+ "arguments": ["t0", "t1", "t2", "simple_addition.asm"],
+ "description": "Simple Addition Unit Test",
+ "expected_result": "RARS 1.5  Copyright 2003-2019 Pete Sanderson and Kenneth Vollmar\n\n\nProgram terminated by calling exit\nt0\t0x00000042\nt1\t0x00000066\nt2\t0x000000a8\n"}
