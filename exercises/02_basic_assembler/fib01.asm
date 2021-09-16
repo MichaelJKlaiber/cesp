@@ -15,6 +15,10 @@
 .align 2
 # ADD YOUR STEP 1 CODE HERE
 
+newline:
+.string "\n"
+
+
 .text
 
 
@@ -29,7 +33,18 @@ main:
 	
 	#STEP 6: Print the results
 	
-	# ADD YOUR STEP 6 CODE HERE
+	print:
+		#Input:
+		# a1: address to integer that is printed
+
+		# print integer
+		lw a0, (a1)
+		li  a7, 1          
+	    	ecall
+	    	# print \n string
+	    	la a0, newline
+	    	li  a7, 4          
+	    	ecall
 	
 	#STEP 7: OS Call to exit program
 
