@@ -25,13 +25,14 @@ newline:
 main:
 	#STEP 2: Implement the call of the fib function
 	#        Hints: 
-	#              1) Pass the address of the global variable called "fibonacci" and the constant "n" that defines the length via the correct registers to function fib
-	#              2) Use 
+	#              1) Pass the address of the global variable called "fibonacci" and the constant "n" that defines the length via the correct registers to function fib 
 	
 	# ADD YOUR STEP 2 CODE HERE
 
 	
 	#STEP 6: Print the results
+
+	# ADD YOUR STEP 6 CODE HERE. Use the print function
 	
 	print:
 		#Input:
@@ -67,3 +68,17 @@ _fib_for_loop:
 	
 _fib_end:
 	#STEP 5: Jump back into main using the address you have saved before
+
+
+print:
+	#Input:
+	# a1: address to integer that is printed
+
+	# print integer
+	lw a0, (a1)
+	li  a7, 1          
+	ecall
+	# print \n string
+	la a0, newline
+	li  a7, 4          
+	ecall
