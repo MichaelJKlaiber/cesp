@@ -78,8 +78,8 @@ print:
 	lw a0, (a1)
 	li  a7, 1          
 	ecall
-	ret
 	# print \n string
 	la a0, newline
 	li  a7, 4          
 	ecall
+	ret
