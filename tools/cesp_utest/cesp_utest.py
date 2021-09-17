@@ -27,7 +27,7 @@ def main():
                     run = jd["executable"] + jd["arguments"]
                     expected_result = jd["expected_result"]
                     description = jd["description"]
-
+                    print(f"Running {description}")
                     # Run Simulation
                     sp = subprocess.run(run, stdout=subprocess.PIPE)
                     result = sp.stdout.decode("utf-8")
