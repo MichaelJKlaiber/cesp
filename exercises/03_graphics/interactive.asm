@@ -43,9 +43,9 @@ lw a7, 16 (sp)
 
 #STEP 3: Complete the missing spots marked below by ... 
 
-lw t0, (s0)
+lw t0, ... (s0)
 beq t0, zero switch.end
-lw t0, 4(s0)
+lw t0, ... (s0)
 switch.start:
   switch.w:
   li t1, ...
