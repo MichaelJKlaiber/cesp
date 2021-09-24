@@ -37,9 +37,5 @@ ret
 
 
 
-
-
-ret
-
 #STEP 4: Include the draw_pixel file here with an assembler directive
 # ADD YOUR STEP 1 CODE HERE
