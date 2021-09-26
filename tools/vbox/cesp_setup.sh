@@ -4,6 +4,9 @@
 # Installation of ubuntu packages
 sudo apt-get install -y default-jre scite evince bless gimp python3 emacs
 
+git config --global user.name "CESP_Student"
+git config user.email "noreply@cesp.lecture"
+
 export CESPREPO=/home/$USER/cesp_course
 export TOOLS=$CESPREPO/tools
 export CESPRC=/home/$USER/cesp.bashrc
