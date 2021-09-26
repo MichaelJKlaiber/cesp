@@ -7,8 +7,8 @@
 
 	
 .data
-.include "cesplib_fpgrars.asm"
-#.include "cesplib_rars.asm"
+#.include "cesplib_fpgrars.asm"
+.include "cesplib_rars.asm"
 
 .eqv max_read 400000
 .eqv BMP_BUFFER 0x10070000
