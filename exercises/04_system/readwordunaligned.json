@@ -7,9 +7,8 @@
   ],
   "arguments": [
     "a0",
-    "a1",
     "unittest_readwordunaligned.asm"
   ],
   "description": "Read word unaligned",
-  "expected_result": "RARS 1.5  Copyright 2003-2019 Pete Sanderson and Kenneth Vollmar\n\n\nProgram terminated by calling exit\na0\t0xd00fdead\na1\t0x10008000\n"
+  "expected_result": "RARS 1.5  Copyright 2003-2019 Pete Sanderson and Kenneth Vollmar\n\n\nProgram terminated by calling exit\na0\t0xd00fdead\n"
 }
