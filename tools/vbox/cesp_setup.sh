@@ -14,7 +14,7 @@ export CESPRC=/home/$USER/cesp.bashrc
 echo '' > $CESPRC
 
 # RISC V GCC
-echo "PATH=$PATH:$TOOLS/riscv32/bin/" >> $CESPRC
+echo "PATH=$PATH:$TOOLS/riscv32/bin/:/opt/riscv32/bin" >> $CESPRC
 
 
 # Add Rars
