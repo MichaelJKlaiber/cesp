@@ -89,8 +89,8 @@ int check_result(int* a, int* b){
 
 int  main(){
     matmul(input0, input1, result);
-    int c = check_result(result, expected_result);
-    printf("Check: %d\n", c);
+    //int c = check_result(result, expected_result);
+    //printf("Check: %d\n", c);
     return 0;
 }
 
