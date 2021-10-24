@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define size 16
-#define t_size 4
+#define t_size 1
 
 int input0[256] = {
  01, 00, 04, 02, 01, 04, 00, 02, 00, 01, 00, 00, 01, 01, 00, 00,
